@@ -1,0 +1,82 @@
+Spark/
+│
+├── 0_Roadmap/
+│   ├── Topics_To_Discuss.md
+│
+├── 1_DataEngineering/
+│   ├── 01_What_is_Data_Engineering.md
+│   ├── 02_Why_Data_Engineering.md
+│   ├── 03_What_is_Big_Data.md
+│   ├── 04_Big_Data_Challenges.md
+│   ├── 05_Hadoop_Ecosystem.md
+│   ├── 06_What_is_MapReduce.md
+│   ├── 07_MapReduce_Limitations.md
+│   └── 08_Hadoop_vs_MapReduce_vs_Spark.md
+│
+├── 2_Spark/
+│   ├── 01_What_is_Apache_Spark.md
+│   ├── 02_Why_Spark.md
+│   ├── 03_Spark_Architecture.md
+│   ├── 04_Driver_vs_Executor.md
+│   ├── 05_Cluster_Manager.md
+│   ├── 06_SparkSession_vs_SparkContext.md
+│   ├── 07_Spark_Memory_Management.md
+│   ├── 08_DataFrames.md
+│   ├── 09_Transformations_vs_Actions.md
+│   ├── 10_Lazy_Evaluation.md
+│   ├── 11_DAG.md
+│   ├── 12_Partitions.md
+│   ├── 13_Repartition_vs_Coalesce.md
+│   ├── 14_Narrow_vs_Wide_Transformations.md
+│   ├── 15_Shuffle.md
+│   ├── 16_Jobs_Stages_Tasks.md
+│   ├── 17_Catalyst_Optimizer.md
+│   ├── 18_Logical_vs_Physical_Plan.md
+│   ├── 19_AQE.md
+│   ├── 20_Caching_and_Persistence.md
+│   └── 21_Spark_Performance_Tuning.md
+│
+├── 3_Joins/
+│   ├── 01_Joins_Overview.md
+│   ├── 02_Broadcast_Join.md
+│   ├── 03_Sort_Merge_Join.md
+│   ├── 04_Shuffle_Hash_Join.md
+│   ├── 05_Data_Skew.md
+│   └── 06_Skew_Handling.md
+│
+├── 4_Databricks/
+│   ├── 01_What_is_Databricks.md
+│   ├── 02_Databricks_Architecture.md
+│   ├── 03_Unity_Catalog.md
+│   ├── 04_Catalog_Schema_Table.md
+│   ├── 05_Managed_vs_External.md
+│   ├── 06_Storage_Credentials.md
+│   ├── 07_External_Locations.md
+│   ├── 08_Workflows.md
+│   ├── 09_Clusters_and_Compute.md
+│   └── 10_Auto_Loader.md
+│
+├── 5_DeltaLake/
+│   ├── 01_What_is_Delta_Lake.md
+│   ├── 02_ACID_Transactions.md
+│   ├── 03_Time_Travel.md
+│   ├── 04_MERGE_Operation.md
+│   ├── 05_OPTIMIZE.md
+│   ├── 06_ZORDER.md
+│   ├── 07_VACUUM.md
+│   └── 08_Delta_Architecture.md
+│
+├── 6_RetailRocket_Project/
+│   ├── 01_Project_Overview.md
+│   ├── 02_Source_Data.md
+│   ├── 03_Project_Architecture.md
+│   ├── 04_Bronze_Layer.md
+│   ├── 05_Silver_Layer.md
+│   ├── 06_Gold_Layer.md
+│   ├── 07_Data_Quality_Framework.md
+│   ├── 08_Incremental_Loading.md
+│   ├── 09_Late_Arriving_Data.md
+│   ├── 10_Correction_Ledger.md
+│   ├── 11_Audit_Framework.md
+│   ├── 12_Performance_Optimization.md
+│   └── 13_Final_Architecture.md
